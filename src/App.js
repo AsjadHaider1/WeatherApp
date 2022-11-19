@@ -13,7 +13,7 @@ function App() {
       setLocation("");
     }
   };
-
+//added a comment
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=2ccfff3557c9a0db8fc7b4c1471f18bd`;
   return (
     <div className="app">
