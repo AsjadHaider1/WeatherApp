@@ -18,6 +18,8 @@ function App() {
   return (
     <div className="app">
       <div className="search">
+        <div>It's Junaid here to serve you! </div>
+        <br />
         <input
           value={location}
           onChange={(event) => setLocation(event.target.value)}
